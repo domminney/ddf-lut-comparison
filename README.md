@@ -1,5 +1,5 @@
 # ddf-lut-comparison
-A little app to compare luts 
+A little app to compare luts in nodejs
 
 I wrote this to compare all the film profile & print looks in Dehancer as it was impossible to pick from 126 combinations using their dropdown lists
 
@@ -10,6 +10,8 @@ This app puts one lut up against another and you keep picking your favourite of 
 I haven't included the LUTs (cube files) because they are not mine to share, but if you populate the LUTs folder and then run generatelutsjson.js it will create the json file with all the lut file names as an array
 
 Run switchboard.js and then navigate to localhost:4015 to start your comparison.
+
+You will need to install express using npm i express
 
 You can cange the image file name at the top of luts.js
 
